@@ -1,4 +1,8 @@
 <?php
+$pagetitle="Home Page";
+require_once('assets/header.php');
+?>
+<?php
 echo $_SERVER["REQUEST_METHOD"]."<br/>";
 ?>
 <form action='' method='post'> 
